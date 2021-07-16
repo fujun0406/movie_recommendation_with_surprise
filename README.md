@@ -6,7 +6,7 @@
 * [Results](#results)
 
 ## Background
-Recommender System is a system that predict ratings or preferences user may give to this item. It is a method to recommend things to people based on their past behaviour. We often sort or present as "top-N" recommendations which means recommendating people a set of N items from a large collection of items. There are many metrics to evaluate the results of this techniques. In this project, we mainly use `surprise` module to build differnent recommender system which can use to predict moving rating and provide recommendations.
+Recommender System is a system that predict ratings or preferences user may give to this item. It is a method to recommend things to people based on their past behaviour. We often sort or present as "top-N" recommendations which means recommendating people a set of N items from a large collection of items. There are many metrics to evaluate the results of this techniques. In this project, we mainly use `surprise` module to build differnent recommender system which can use to predict movies rating and provide recommendations.
 
 ## Dataset
 This data come from [Kaggle MovieLen](https://www.kaggle.com/snehal1409/movielens). 
