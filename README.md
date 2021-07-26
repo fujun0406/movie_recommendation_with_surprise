@@ -7,7 +7,7 @@
 * [Results](#results)
 
 ## Background
-Recommender System is a system that predict ratings or preferences user may give to this item. It is a method to recommend things to people based on their past behaviour. We often sort or present as "top-N" recommendations which means recommendating people a set of N items from a large collection of items. There are many metrics to evaluate the results of this techniques. In this project, we mainly use `surprise` module and deep learning to build differnent recommender system which can use to predict movies rating and provide recommendations.
+Recommender System is a system that predict ratings or preferences user may give to this item. It is a method to recommend things to people based on their past behaviour. We often sort or present as "top-N" recommendations which means recommendating people a set of N items from a large collection of items. There are many metrics to evaluate the results of this techniques. In this project, we mainly use [`suprise`](http://surpriselib.com/) module and deep learning to build differnent recommender system which can use to predict movies rating and provide recommendations.
 
 ## Dataset
 This data come from [Kaggle MovieLen](https://www.kaggle.com/snehal1409/movielens). 
@@ -31,7 +31,7 @@ It contains 671 user, 9125 movies and 100004 ratings and there are no missing va
 <em>Table 2: `movies.csv` file.</em>
 
 ## Methodology
-In this project, we use [`suprise`](http://surpriselib.com/) module in Python which can build and analyze recommender systems. There are many available prediction algorithms in this module and we use SVD and KNN in this dataset. We also utilize this module and `tensorflow` to construct our own alorithms - Restricted Boltzmann machineand(RBM) and AutoEncoder and both are artificial neural network. 
+In this project, we use [`suprise`](http://surpriselib.com/) module in Python which can build and analyze recommender systems. There are many available prediction algorithms in this module and we use SVD and KNN in this dataset. We also utilize this module and [`tensorflow`](https://www.tensorflow.org/) to construct our own alorithms - Restricted Boltzmann machineand(RBM) and AutoEncoder and both are artificial neural network. 
 
 ## Results
 We build some models toward this data set and the result shows as following.
