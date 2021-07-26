@@ -31,7 +31,7 @@ It contains 671 user, 9125 movies and 100004 ratings and there are no missing va
 <em>Table 2: `movies.csv` file.</em>
 
 ## Methodology
-In this project, we use [`suprise`](http://surpriselib.com/) module in Python which can build and analyze recommender systems. There are many available prediction algorithms in this module and we use SVD and KNN is this dataset. We also use this module to construct our own alorithms - Restricted Boltzmann machineand(RBM) and AutoEncoder and both are artificial neural network. 
+In this project, we use [`suprise`](http://surpriselib.com/) module in Python which can build and analyze recommender systems. There are many available prediction algorithms in this module and we use SVD and KNN in this dataset. We also utilize this module and `tensorflow` to construct our own alorithms - Restricted Boltzmann machineand(RBM) and AutoEncoder and both are artificial neural network. 
 
 ## Results
 We build some models toward this data set and the result shows as following.
